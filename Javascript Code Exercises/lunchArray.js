@@ -23,8 +23,23 @@ function whosPaying(names){
     //return message;
 }
 
-for(var i = 0; i < 100; i++){
+// for(var i = 0; i < 100; i++){
 
-whosPaying(names);
+// whosPaying(names);
+
+// }
+
+function whoWillPay(names){
+
+    var numPeople = names.length;
+    var randomSpot = Math.floor(Math.random() * numPeople);
+    var randPerson = names[randomSpot];
+
+    console.log(randPerson + " is going to buy lunch today!");
+}
+
+for(var j = 0; j < 100; j++){
+
+    whoWillPay(names);
 
 }
