@@ -17,9 +17,9 @@ function fibonacciGenerator(n){
             printy = false;
         }
         var c = a + b;
-        fibo.push(c)
-        var a = b;
-        var b = c;
+        fibo.push(c);
+        a = b;
+        b = c;
         
         
         }
